@@ -13,6 +13,7 @@ body {font-family: 'Arial', sans-serif;}
   grid-template-rows: 100px 1fr 120px;
 }
 
+.img_responsive {display:block;max-width: 100%;height:auto;}
 
 
 
