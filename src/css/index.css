@@ -1,12 +1,12 @@
 @import "../../node_modules/normalize.css/normalize.css";
 
-html, body {height: 100%;}
+html, body, .main_page, #root {height: 100%;}
 
 body {font-family: 'Arial', sans-serif;}
 
 * {box-sizing: border-box;}
 
-#root {
+.main_page {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;

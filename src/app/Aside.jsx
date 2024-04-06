@@ -5,7 +5,7 @@ function Aside(){
     return (
         <aside>
 
-            <p>Aside</p>
+            <p>Бабаян Ангелина Араиковна</p>
 
         </aside>
     );
