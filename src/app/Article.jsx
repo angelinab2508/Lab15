@@ -1,7 +1,7 @@
 
 import '../css/Article.css';
 
-function Article(){
+const Article = () => {
     return (
         <article>
 

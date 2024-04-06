@@ -1,7 +1,7 @@
 
 import '../css/Footer.css';
 
-function Footer(){
+const Footer = () => {
     return (
         <footer>
             <p className="footer_info"><strong>Author:</strong> Angelina</p>

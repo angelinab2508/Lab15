@@ -1,12 +1,10 @@
 
 import '../css/Aside.css';
 
-function Aside(){
+const Aside = () => {
     return (
         <aside>
-
             <p>Бабаян Ангелина Араиковна</p>
-
         </aside>
     );
 }

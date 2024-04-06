@@ -1,7 +1,7 @@
 
 import '../css/Head.css';
 
-function Head(){
+const Head = () => {
     return (
         <header>
             <p className="header_site_name">Lab 15</p>
