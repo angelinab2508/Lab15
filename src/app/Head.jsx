@@ -1,18 +1,24 @@
 
+import { NavLink } from 'react-router-dom';
+
 import '../css/Head.css';
 
 const Head = () => {
     return (
-        <header>
-            <p className="header_site_name">Lab 15</p>
-            <nav className="header_menu">
-                <ul>
-                    <li><a href="#news">Новости</a></li>
-                    <li><a href="#about">О проекте</a></li>
-                    <li><a href="#contacts">Контакты</a></li>
-                </ul>
-            </nav>
-        </header>
+        <>
+            <header>
+                <p className="header_site_name">
+                    <a href="/">Лабораторная работа №15</a>
+                </p>
+                <nav className="header_menu">
+                    <ul>
+                        <li><NavLink to="/news">Новости</NavLink></li>
+                        <li><NavLink to="/about">О проекте</NavLink></li>
+                        <li><NavLink to="/contact">Контакты</NavLink></li>
+                    </ul>
+                </nav>
+            </header>
+        </>
     );
 }
 
